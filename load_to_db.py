@@ -3,7 +3,7 @@ from sqlalchemy import create_engine, BigInteger
 from sqlalchemy.types import Integer, Float, Date
 
 
-engine = create_engine('postgresql://postgres:anurag12@localhost:5432/movies_db')
+engine = create_engine('postgresql://username:password@localhost:5432/movies_db')
 
 
 def load_to_db():
