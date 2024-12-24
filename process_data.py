@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 import pandas as pd
 
-engine = create_engine('postgresql://postgres:anurag12@localhost:5432/movies_db')
+engine = create_engine('postgresql://username:password@localhost:5432/movies_db')
 
 def get_aggregated_data():
     # SQL query to aggregate data by year
